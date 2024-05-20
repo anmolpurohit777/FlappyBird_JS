@@ -39,9 +39,6 @@ window.onload=function(){
     board.height=bHeight;
     context=board.getContext('2d');
 
-    // context.fillStyle="yellow";
-    // context.fillRect(bird.x,bird.y,bird.wid,bird.hei);
-
     birdIMG=new Image();
     birdIMG.src="./flappybird.png";
     birdIMG.onload=function(){
