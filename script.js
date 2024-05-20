@@ -54,6 +54,7 @@ window.onload=function(){
     requestAnimationFrame(update);
     setInterval(placeP,1500);
     document.addEventListener("keydown",movBird);
+    document.addEventListener("touchstart",movBird);
 
 }
 
