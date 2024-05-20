@@ -142,7 +142,7 @@ function placeP(){
 }
 
 function movBird(e){
-    if(e.code=="Space" ||e.code=="KeyX" ||e.code=="ArrowUp"){
+    if(e.code=="Space" ||e.code=="KeyX" ||e.code=="ArrowUp" || e.type==="touchstart"){
         velY=-6;
     }
 
